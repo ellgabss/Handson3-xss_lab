@@ -1,6 +1,6 @@
 Pada file vulnerable.html, terdapat baris kode:
 
-container.innerHTML = html; // INI ADALAH CELAH KEAMANANNYA!
+container.innerHTML = html; // INI CELAH KEAMANANNYA!
 innerHTML memerintahkan browser untuk memperlakukan input pengguna sebagai kode HTML yang harus dijalankan.
 
 Sedangkan pada versi Secure, menggunakan metode:
